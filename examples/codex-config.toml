@@ -1,0 +1,6 @@
+# ~/.codex/config.toml
+# Sign in afterwards with: codex mcp login rednote
+[mcp_servers.rednote]
+url = "https://mcp.apify.com/?tools=fetch-actor-details,get-actor-run,get-dataset-items,zen-studio/rednote-search-scraper,zen-studio/rednote-note-detail-scraper,zen-studio/rednote-comments-scraper,zen-studio/rednote-user-profile-scraper"
+# Token instead of sign-in: export APIFY_TOKEN and uncomment the next line.
+# bearer_token_env_var = "APIFY_TOKEN"

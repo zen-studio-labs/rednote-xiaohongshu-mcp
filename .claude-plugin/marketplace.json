@@ -1,0 +1,34 @@
+{
+  "name": "rednote-xiaohongshu-mcp",
+  "owner": {
+    "name": "Zen Studio",
+    "url": "https://github.com/zen-studio-labs"
+  },
+  "metadata": {
+    "description": "RedNote (Xiaohongshu, 小红书) tools and skill for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "rednote",
+      "source": "./",
+      "description": "Search RedNote (Xiaohongshu, 小红书) notes by keyword, read full notes, comment threads and creator profiles with their posts.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Zen Studio"
+      },
+      "homepage": "https://github.com/zen-studio-labs/rednote-xiaohongshu-mcp",
+      "license": "MIT",
+      "keywords": [
+        "rednote",
+        "xiaohongshu",
+        "小红书",
+        "xhs",
+        "little red book",
+        "social media",
+        "china",
+        "mcp"
+      ],
+      "category": "data"
+    }
+  ]
+}

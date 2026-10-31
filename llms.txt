@@ -1,0 +1,24 @@
+# RedNote (Xiaohongshu) MCP Server
+
+> Hosted remote MCP server for RedNote (Xiaohongshu, 小红书, XHS) data: note search by keyword or hashtag, full notes, comments with replies, and creator profiles with their notes. Read-only. No RedNote account; users sign in with a free Apify account (OAuth) and pay per result.
+
+## Install
+
+- Server name: rednote
+- Transport: streamable HTTP
+- URL: https://mcp.apify.com/?tools=fetch-actor-details,get-actor-run,get-dataset-items,zen-studio/rednote-search-scraper,zen-studio/rednote-note-detail-scraper,zen-studio/rednote-comments-scraper,zen-studio/rednote-user-profile-scraper
+- Auth: Apify OAuth in the user's browser; alternative header `Authorization: Bearer <APIFY_TOKEN>`
+- Claude Code plugin: `claude plugin marketplace add zen-studio-labs/rednote-xiaohongshu-mcp`, then `claude plugin install rednote@rednote-xiaohongshu-mcp`
+
+## Docs
+
+- [README](https://github.com/zen-studio-labs/rednote-xiaohongshu-mcp/blob/main/README.md): setup for every client, tools, pricing, FAQ
+- [README in Chinese](https://github.com/zen-studio-labs/rednote-xiaohongshu-mcp/blob/main/README.zh-CN.md)
+- [Skill](https://github.com/zen-studio-labs/rednote-xiaohongshu-mcp/blob/main/skills/rednote/SKILL.md): run flow, input recipes, tool chaining, field sets
+
+## Tools
+
+- zen-studio/rednote-search-scraper: notes for keywords or hashtags
+- zen-studio/rednote-note-detail-scraper: full notes from links or IDs, optional media and subtitle files
+- zen-studio/rednote-comments-scraper: comments and replies under notes
+- zen-studio/rednote-user-profile-scraper: creator profiles and their notes

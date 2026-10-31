@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "rednote": {
+      "url": "https://mcp.apify.com/?tools=fetch-actor-details,get-actor-run,get-dataset-items,zen-studio/rednote-search-scraper,zen-studio/rednote-note-detail-scraper,zen-studio/rednote-comments-scraper,zen-studio/rednote-user-profile-scraper",
+      "headers": {
+        "Authorization": "Bearer <APIFY_TOKEN>"
+      }
+    }
+  }
+}
